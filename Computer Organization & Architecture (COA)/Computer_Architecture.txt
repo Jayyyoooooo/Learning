@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-04T21:55:56+05:30
+
+====== Computer Architecture ======
+Created Monday 04 May 2026
+
+==== Von-Neumann Architecture(VNA) v/s Non-Von-Neumann Architecture(NVNA) ====
+
+VNA - Both Data and Instructions are stored in the same memory unit and single channel is used to access either of them one at a time.
+NVNA - Both Data and Instructions are stored in separate memory unit and separate channels are used to access both of them independent of each other.
+
+{{./pasted_image.png}}
+
+== Modified Harvard Architecture ==
+Has a cache within the processor - which when accessed acts as Von-Neumann architecture, and when accessing Instruction Memory acts as a Harvard Architecture
+
+=== Flynn's Taxonomy - Broadly Classified as: ===
+SISD - Single Instruction Stream and Single Data Stream		-	Proper Von-Neumann Arch Machine
+SIMD - Single Instruction Stream and Multiple Data Stream		-	Von-Neumann Arch Machine with Multiple ALU - Processor Array.
+MISD - Multiple Instruction Stream and Single Data Stream		-	Not many practical machines in this category
+MIMD - Multiple Instruction Stream and Multiple Data Stream	-	Multiple Processors with multiple data streams - Multi-processor systems - modern computers
+{{./pasted_image001.png}}

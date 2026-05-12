@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-05T19:06:40+05:30
+
+====== Cache ======
+Created Tuesday 05 May 2026
+
+Levels of Caches - L1, L2, L3  -  Obviously - L1 Fzaster(Individual for each processor) > L2 Faster(Individual for each processor) > L3 Fast but not the fastest(Shared b/w multiple processor)
+
+==== Few Named terms to keep in mind. ====
+
+Cache Hit - Procesor is able to find the required info - Time taken to get the info is "Hit Time"
+Tag Directory - Data structure which keeps track of the info in the Cache.
+Cache Miss - If the processor is unable to find the required info. Processor will then go to Main Memory and fetch the info and place it in the cache and bring it back into processing. - Time taken for this round trip is called "Miss Latency"
+
+If able to find in the Main Memory - Then it's Page Hit
+If unable to find in the Main Memory - Then it's Page Fault - Time taken to fetch the info from the secondary memory is called Page fault Service Time
+{{./pasted_image.png}}
+
+=== To place the instruction inside the cache ===
+1. Spacial Locality - Neighbouring location around the current accessing location
+2. Temporal Locality - Referred again the same location

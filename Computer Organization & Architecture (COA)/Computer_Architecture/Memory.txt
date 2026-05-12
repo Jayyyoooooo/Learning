@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-04T23:15:04+05:30
+
+====== Memory ======
+Created Monday 04 May 2026
+
+==== Primary Memory and Secondary Memory ====
+Immediate Tasks - Primary Memory. E.g RAM
+	-	The Order of the access of the memory is Random as it is configured/used mainly for speed. - Hence called Dynamic RAM
+	-	Capacitor is accociated with Transistor, where periodic recharging is necessary for memory retention. Which is quite slow for modern day processor
+	-	We have SRAM - Static RAM or Cache memory
+For Storage - Secondary Memory E.g HDD
+	-	To Store the data and use it as a non-volatile memory
+
+{{./pasted_image.png}}
+
+Fact: Processor doesn't know the existance of the Secondary memory but the OS takes care of interfacing the Secodary memory with the Processor
+
+==== Memory Hierarchy ====
+
+1. Registers - Embedded in the Processor
+2. Caches - SRAM
+3. Main Memory - DRAM
+4. Secondary Storage
+
+The above order is - access time increases and size increase from 1 to 4, and Costlier, and usage frequency from 1 to 4
+
+Speed of the Processor is measured in MIPS - Million Instructions per Second
+
+=== Interfacing the memory with the processor. ===
+
+== Way 1 - Parallel Interfacing ==
+{{./pasted_image001.png}}
+
+== Way 2 - Serial Interfacing - Direct Memory Mapping ==
+{{./pasted_image002.png}}
+
+
+==== Mapping b/w Cache and Main Memory ====
+
+1. Programs are stored in the Secodary Memory, at run time turned into process. 
+2. Each process is subdivided into equal size pages, like wise: Main Memory is split into equal size frame. 
+3. OS is responsible for dividing the Processes into pages and bringing them into Main Memory.
+{{./pasted_image003.png}}
+
+Main Memory is divided into Blocks and Cache is divided into lines, to facilitate the transfer of the data b/w them
+
+Smallest addressable memory is "Word"
+1. Byte addressable Memory - 1 word = 1 Byte
+
+If Main Memory is 64 words, Will need 6(i,e log_2 (64)) bit address for mapping out each word. And if block size is 4 words. We have 16 blocks. So address of each block we will need 4(i,e log_2 (16)) bit address.
+{{./pasted_image004.png}}
+
+Clubbing the Block and each word - the 6bit address space is divided as - First four bits refers to the row of the Main Memory and next 2 bits refers to the position of the each word in the row
+
+{{./pasted_image005.png}}
+
+And say the cache size of 16 words -> 16/4 = 4 lines(or blocks). To identify each lines(or blocks) in the cache memory - we will need 2(log_2 (4)) bit address.
+{{./pasted_image006.png}}
+
+To map all the blocks in the Main Memory to the cache lines -  we will use round-robin order.		-		Many to One Relation
+{{./pasted_image007.png}}
+
+Expanding the 6bit Physical Address.
+{{./pasted_image008.png}}
+
+Why are they called Tag bits? - They essentially dictate which blocks are currently mapped to the cache lines.
+{{./pasted_image009.png}}
+
+
+
+
+
+
+
+

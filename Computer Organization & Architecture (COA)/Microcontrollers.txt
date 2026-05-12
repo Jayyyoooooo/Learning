@@ -1,0 +1,98 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-03T21:15:22+05:30
+
+====== Overview of Microcontrollers ======
+Created Sunday 03 May 2026
+
+====== CPU ======
+
+1. Program Counter - PC
+	a. Contains the address of the next instruction to be executed
+2. Memory Address Register - MAR
+	a. Stores the address of the memory location currently being accessed
+3. Incrementer
+	a. Used to increment the value stored in the Program Counter
+4. Intruction Register - IR
+	a. Stores the instruction currently being executed
+5. Control Unit - CU
+	a. subsystem that controls the CPU
+6. ALU
+7. Memory Buffer Register - MBR
+	a. Stores the data that has just been read from the memory or the data that is to be written to the memory
+8. Register Bank - RB
+
+===== 32-Bit Architecture =====
+
+Is referred to the length of the registers inside the CPU, each of which are 4 byte large, compared to the 1 byte large address(32 bit register) in the memory
+Natural order is when the set of 4 registers are clubbed/grouped together so that the 32 bit data or instructions are easily stored, and can be fetched.
+
+==== Instruction Execution Cycle ====
+1. Fetch
+	a. Value in PC is copied to MAR
+	b. Location in Memory pointed at by MAR is read
+	c. Instruction is copied to MBR
+	d. Content of MBR is copied to IR
+	e. PC is incremented
+2. Decode
+	a. Instruction in IR is decoded
+	b. Types of Instruction 
+		1. Data Processing (Done by ALU)
+		2. Loading data from the memory
+		3. Storing data in Memory
+	c. CU will determine what kind of instruction is in the IR and how to proceed
+	d. Microcontroller is an example of Load-Store architecture
+		1. Only Data stored in register(as in Register Bank) can be operated on
+		2. Data in Main memory cannot be operated on directly, must first be loaded to a register
+3. Execute
+	a. Load instruction data from memory is written to a register in register bank
+		1. The address of the memory location to read from may be stored in another register(Natural Order)
+	b. Data procesing instruction: ALU will carry out the operation on data in the registers, result of operation is also writtten back to register
+		1. Hall-mark of load-store architecture
+	c. Store instruction: data in a register is written to main memory, address of the memory location to write to may be stored in another register
+4. Pipelining - 3 Stage Pipeline
+	a. Increase performance
+		1. While first instruction is beng decoded, second instruction can be fetched, and while the first instruction is executed, third instruction can be fetched.
+
+==== Instruction Set Arcitecture ====
+
+Outlines which instructions can be carried out by the computer
+Microcontroller - E.g of RISC - Fairly limited number of instructions
+	1. Instructions are represented by Mnemonics to make them easier to remember
+	2. Assembly is computer code written using these mnemonics
+	3. assembler - used to convert the code to machine code - 0's and 1's that are stored in memory
+
+=== Instruction format ===
+Example of 16 bit instruction
+
+It has a 3-address format
+	001 0000 011 010 001
+	* First 3 digits represent "type" - Load, Store or Data operation
+	* Next 4 digits represent op-code - May or May not be required
+	* Next 3 digits represet the destination Register
+	* Next set of 3 digits represet the First register and Second Register.
+	* Data operation - ADD R1, R2,R3 -> Add R2 + R3 and Store it in R1
+
+LDR R0, [R6]  -> Load the Data, stored in address, stored in R6 register into R0 register
+LDR R1, [R7]  -> Load the Data, stored in address, stored in R7 register into R1 register
+ADD R2, R1, R0  -> Add Values stored in Address R1 and R0, and Store the result in Register R2
+STR R2, [R5]  -> Store the Data stored in address R2, into the address stored in the register R5
+
+{{./pasted_image001.png}}
+
+==== Harvard vs Von Neumann Architecture ====
+Von Neumann Architecture - Data and Instructions are in a single block and a single bus cater to both
+Harvard Architecture - Data and Instructions are in a seperate block and a seperate bus cater to each of them
+
+Microcontroller are Harvard Architecture
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}
+
+==== Memory -Space ====
+Peripherals contains separate registers that are used to configure the settings
+They are memory mapped - appear to be part of Instructions and Data
+From MCU perspective they are all a block of Memory despite being separate memory - Also known as Unified Memory Map
+
+== Typical Architecture of Unified Memory Map ==
+{{./pasted_image007.png}}
