@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-19T12:19:24+05:30
+
+====== Hardware Implementation ======
+Created Tuesday 19 May 2026
+
+T_{MUX} is negligible when compared to Comparator delay. 'n' tag bits implies n-bit comparator, 'p' cache lines implies 'p' to 1 MUX. '{{.\pasted_image_260519.png}}
+
+Conflict Miss - When the required lines are of different tag bits, but same line bits.
+{{.\pasted_image_260519-001.png}}

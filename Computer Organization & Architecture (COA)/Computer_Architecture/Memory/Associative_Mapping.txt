@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-05-19T14:00:44+05:30
+
+====== Associative Mapping ======
+Created Tuesday 19 May 2026
+==== = ====
+Considering Both Tag bits Plus Line Number as a sinlge set of address. - Increase in the Number of Address bits in the Cache -> Number of Comparators increase, Heat Increase, Cost of the Hardware Increase
+{{.\pasted_image_260519-002.png}}
+
+== Hardware Implementation ==
+{{.\pasted_image_260519-003.png}}
