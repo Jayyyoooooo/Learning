@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-06-30T14:46:19+05:30
+
+====== Cache Coherence ======
+Created Tuesday 30 June 2026
+
+{{.\pasted_image_260630.png}}
+
+{{.\pasted_image_260630-002.png}}
+
+Hardware solution is called Cache Coherence Protocol.
+{{.\pasted_image_260630-001.png}}
+
+Snooping-Based
+{{.\pasted_image_260630-003.png}}
+After P1 and P3 get the shared variable. 
+
+P1 changing the variable 'A' - Signals an Invalidation signal that is caught by P3, (the variable now will not be accessable - Causing Coherence miss)
+{{.\pasted_image_260630-004.png}}
+{{.\pasted_image_260630-005.png}}
+For Write update - P1 would send the update request in the shared bus - Other processors that has access to the variable updates the value, and set the variable into shared state.
+{{.\pasted_image_260630-006.png}}
+
+Directory Based - Useful for scaling and many processors systems
+{{.\pasted_image_260630-007.png}}
+{{.\pasted_image_260630-008.png}}
+
+Update A and change the state from Shared to Modified State.
+{{.\pasted_image_260630-009.png}}
+
+P1 Trying to access the 'A' after P3 has modified it causes it to be invalid - hence P1 trying to access 'A' without getting updates reflected from P3 will cause Coverage Miss
+{{.\pasted_image_260630-010.png}}

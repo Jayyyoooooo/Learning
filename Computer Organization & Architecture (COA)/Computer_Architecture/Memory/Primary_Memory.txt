@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-06-30T15:44:07+05:30
+
+====== Primary Memory ======
+Created Tuesday 30 June 2026
+{{.\pasted_image_260630-003.png}}

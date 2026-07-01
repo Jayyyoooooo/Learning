@@ -15,7 +15,7 @@ Example: Below Illustrate the idea behind
 {{.\pasted_image_260519-002.png}}
 Cache line bits are reduced and reffered to as Set number bits and Tag bits are extended.
 
-Set Number bits are obtained by dividing the Cache lines by the number of set ways. The n-way Set Associative number will essentially remodel how we see the cache memory by compartmentalizing the cache memory, which basically addresses the way block size is arranged and accessed in the cache memory. So, the obtaining the set lines, we can then calculate the Tag bits.
+Set Number bits are obtained by dividing the Cache lines by the number of set ways. The n-way Set Associative number will essentially remodel how we see the cache memory by compartmentalizing the cache memory, which basically addresses the way block size is arranged and accessed in the cache memory. So, obtaining the set lines, we can then calculate the Tag bits.
 
 
 

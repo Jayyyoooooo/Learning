@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-06-30T12:10:08+05:30
+
+====== Cache Design ======
+Created Tuesday 30 June 2026
+
+
+{{.\pasted_image_260630-002.png}}
+{{.\pasted_image_260630-003.png}}
+{{.\pasted_image_260630-004.png}}
+{{.\pasted_image_260630-005.png}}
+{{.\pasted_image_260630-006.png}}
+{{.\pasted_image_260630-001.png}}
+{{.\pasted_image_260630-007.png}}
+{{.\pasted_image_260630-008.png}}
