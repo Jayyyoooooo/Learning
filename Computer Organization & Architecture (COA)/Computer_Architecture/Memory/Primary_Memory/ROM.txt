@@ -9,3 +9,16 @@ Created Tuesday 30 June 2026
 {{.\pasted_image_260630.png}}
 {{.\pasted_image_260630-001.png}}
 {{.\pasted_image_260630-002.png}}
+
+Function lines and connectors reduction pattern.
+{{./pasted_image.png}}
+
+Towards complex Multiplexing
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+
+Generalizing
+{{./pasted_image003.png}}
+
+Cost effective way of complex Multiplexer building.
+{{./pasted_image004.png}}

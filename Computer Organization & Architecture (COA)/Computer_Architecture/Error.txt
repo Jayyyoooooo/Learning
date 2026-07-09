@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-08T14:09:41+05:30
+
+====== Error ======
+Created Wednesday 08 July 2026
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+
+Problem of encoding in Error detection and Error correction
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}

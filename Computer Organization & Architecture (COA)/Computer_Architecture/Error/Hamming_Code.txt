@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-08T16:42:00+05:30
+
+====== Hamming Code ======
+Created Wednesday 08 July 2026
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}

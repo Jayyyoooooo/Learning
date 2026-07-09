@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-07T17:46:54+05:30
+
+====== Hard Drive ======
+Created Tuesday 07 July 2026
+
+Smallest amount of the data transfered by the hard drive is the sector, and sector is usually equal to 512B. Cylinder is the Tracks in the disk plate, multiple disk plate aligned properly gives the cylinder.
+{{./pasted_image.png}} 
+Format - data used up the hard drive by itself to keep track of the data partitions in the hard drive - so not the complete data space is available for the Main Memory(RAM)
+
+Time required to move from one track to another is called Seek time. T_{S}
+To move from one sector to another sector - Rotational Delay. T_{R} if not specified in the problem then assume it to be half the Rotation Time.
+The actual time taken to transfer the data. T_{Data Transfer}
+T_{avg} - Sum of all three above.
+
+{{./pasted_image001.png}}
+
+Recording Density
+{{./pasted_image002.png}}
+Rotational Speec
+{{./pasted_image003.png}}

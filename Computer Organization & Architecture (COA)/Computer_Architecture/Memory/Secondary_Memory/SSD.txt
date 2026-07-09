@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-07T18:39:46+05:30
+
+====== SSD ======
+Created Tuesday 07 July 2026
+
+{{./pasted_image002.png}}
+
+Charge Trap Flash Memory - NAND - VNAND - Bits ranging from 000 to 111 can be stored or rather vertically stacked based on the density of the electrons
+{{./pasted_image.png}}
+{{./pasted_image001.png}}

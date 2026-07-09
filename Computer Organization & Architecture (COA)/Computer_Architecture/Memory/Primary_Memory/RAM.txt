@@ -5,3 +5,22 @@ Creation-Date: 2026-06-30T16:04:44+05:30
 ====== RAM ======
 Created Tuesday 30 June 2026
 
+Dynamic RAM
+{{./pasted_image.png}}
+
+Synchronus DRAM
+{{./pasted_image001.png}}
+
+Capacity of the RAM
+{{./pasted_image002.png}}
+Data Sheeting Reading.
+{{./pasted_image003.png}}
+Replacement to SDRAM - By RAMBUS Corp
+{{./pasted_image004.png}}
+
+Replacement of RDRAM
+{{./pasted_image005.png}}
+{{./pasted_image006.png}}
+{{./pasted_image008.png}}
+{{./pasted_image009.png}}
+{{./pasted_image010.png}}

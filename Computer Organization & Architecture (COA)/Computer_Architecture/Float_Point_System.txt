@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-09T09:27:16+05:30
+
+====== Float Point System ======
+Created Thursday 09 July 2026
+
+{{./pasted_image002.png}}
+{{./pasted_image001.png}}
+{{./pasted_image005.png}}
+{{./pasted_image006.png}}
+
+Explicit v/s Implicit Normalization
+{{./pasted_image007.png}}
+
+IEEE Standard
+{{./pasted_image008.png}}
+{{./pasted_image009.png}}
+{{./pasted_image010.png}}
+{{./pasted_image011.png}}

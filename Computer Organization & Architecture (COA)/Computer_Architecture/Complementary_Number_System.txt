@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-07T18:52:05+05:30
+
+====== Complementary Number System ======
+Created Tuesday 07 July 2026
+
+Radix(b's complement) and Diminished Radix((b-1)'s complement) Complement
+{{./pasted_image001.png}}
+{{./pasted_image.png}}
+
+Subtraction using Diminished Radix Complement
+{{./pasted_image002.png}}
+
+Example of Diminished Radix Compliment. If carry is generated after adding the (b-1)'s compliment, discard and add it to the result, if no carry is generated - take ones compliment of the result and add a negative sign.
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}
+
+Subtraction in Radix Complement - If carry is generated after adding the (b)'s compliment, discard it, if no carry is generated - take b's complement of the result and add a negative sign.
+{{./pasted_image005.png}}

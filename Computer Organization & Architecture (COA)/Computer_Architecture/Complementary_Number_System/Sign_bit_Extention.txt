@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-08T11:19:32+05:30
+
+====== Sign bit Extention ======
+Created Wednesday 08 July 2026
+
+{{./pasted_image.png}}
+
+Unsigned 4 bit register to 8 bit register
+{{./pasted_image002.png}}
+
+Signed 4 bit register to 8 bit register
+{{./pasted_image003.png}}
+
+Signed 1's complement 4 bit register to 8 bit register
+{{./pasted_image004.png}}
+
+Signed 2's complement 4 bit register to 8 bit register
+{{./pasted_image005.png}}

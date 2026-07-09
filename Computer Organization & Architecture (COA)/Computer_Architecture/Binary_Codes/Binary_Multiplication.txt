@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-09T11:08:17+05:30
+
+====== Binary Multiplication ======
+Created Thursday 09 July 2026
+
+{{./pasted_image.png}}
+
+Booth's Algo
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}

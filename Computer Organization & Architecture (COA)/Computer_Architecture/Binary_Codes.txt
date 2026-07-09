@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-08T11:58:35+05:30
+
+====== Binary Codes ======
+Created Wednesday 08 July 2026
+
+{{./pasted_image004.png}}
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+{{./pasted_image005.png}}
+
+BCD Addition - 8421 code addition - When the result is in b/w 10-15 and when we encounter a carry - add BCD 6 to the result to obtain the final BCD format
+{{./pasted_image006.png}}
+
+In case of multi-digit number - first resolve the BCD Code for the result from the least significant digit and if carry arrives carry it to the next BCD Code.
+{{./pasted_image007.png}}
+{{./pasted_image008.png}}
+{{./pasted_image009.png}}
+{{./pasted_image012.png}}
+{{./pasted_image011.png}}
+{{./pasted_image010.png}}

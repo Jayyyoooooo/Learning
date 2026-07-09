@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-07T16:53:00+05:30
+
+====== Secondary Memory ======
+Created Tuesday 07 July 2026
+
+{{./pasted_image001.png}}
+{{./pasted_image.png}}
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}
+
+SD Card - Secure DIgital
+SDHC - Secure Digital Host Control
+SDXC - Secure Digital Extended Capacity
+SDUC - Secure Digital Ultra Capacity
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}

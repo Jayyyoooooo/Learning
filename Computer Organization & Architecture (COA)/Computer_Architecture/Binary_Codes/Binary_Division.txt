@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-09T11:26:59+05:30
+
+====== Binary Division ======
+Created Thursday 09 July 2026
+
+{{./pasted_image.png}}
+
+From Machine Perspective
+{{./pasted_image001.png}}
+
+Restoring division in binary algo
+{{./pasted_image002.png}}
+
+Improved Restore division
+{{./pasted_image003.png}}
+
+Non-Restoring Division Method
+{{./pasted_image004.png}}
