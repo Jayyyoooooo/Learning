@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-28T10:14:59+05:30
+
+====== Basics of Input Output Structe ======
+Created Tuesday 28 July 2026
+
+
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}
+{{~/Pictures/Screenshots/Screenshot from 2026-07-21 13-37-01.png}}

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-21T14:22:32+05:30
+
+====== Types of OS ======
+Created Tuesday 21 July 2026
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}

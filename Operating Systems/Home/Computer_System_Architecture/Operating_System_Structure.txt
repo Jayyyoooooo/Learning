@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-08-07T14:50:26+05:30
+
+====== Operating System Structure ======
+Created Friday 07 August 2026
+
+{{~/Pictures/Screenshots/Screenshot from 2026-08-07 14-50-36.png}}

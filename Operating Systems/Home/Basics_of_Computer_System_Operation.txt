@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2026-07-28T10:10:47+05:30
+
+====== Basics of Computer System Operation ======
+Created Tuesday 28 July 2026
+
+
+{{./pasted_image002.png}}
+{{~/Pictures/Screenshots/Screenshot from 2026-07-28 10-12-01.png}}
+{{~/Pictures/Screenshots/Screenshot from 2026-07-21 13-24-02.png}}
+{{~/Pictures/Screenshots/Screenshot from 2026-07-21 13-25-21.png}}
